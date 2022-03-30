@@ -69,7 +69,7 @@ def get_data(img):
 
 
 @Waifu.add_handler(
-    MessageHandler(filters.group & ~filters.edited & ~filters.forward), group=1
+    MessageHandler(filters.group & ~filters.edited & ~filters.forward), group=0
 )
 async def autowaifu(client, message):
     if message.photo and message.from_user.id in BOT_LIST:
