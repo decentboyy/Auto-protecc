@@ -3,7 +3,6 @@ import io
 import os
 import urllib
 import requests
-import aiohttp
 
 from re import findall
 from bs4 import BeautifulSoup
