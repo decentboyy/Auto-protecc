@@ -17,6 +17,7 @@ from pyrogram import (
     errors,
     filters,
     idle,
+    MessageHandler,
 )
 
 
